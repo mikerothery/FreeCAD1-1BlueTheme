@@ -1,0 +1,96 @@
+/* COMPLETE BESPOKE THEME: MIKE'S-BLUE-THEME V1.0.2 */
+
+/* 1. GLOBAL DEFAULTS - Resetting the foundation */
+* {
+    /* We remove the background-color from here to prevent "bleed" into white areas */
+    color: #000000;
+    font-size: 12pt;
+}
+
+/* 2. MAIN PANELS - This provides the blue "shell" of FreeCAD */
+QMainWindow, QDialog, QDockWidget, QStatusBar, QMenuBar, QToolBar, QScrollArea {
+    background-color: #c4d6e5; /* The blue you picked in Gradience */
+    border: none;
+}
+
+/* Fix for the background of the actual "workspace" behind the 3D view */
+QWidget#mdiArea {
+    background-color: #c4d6e5;
+}
+
+/* 3. THE DATA FIELDS - These should stay crisp white */
+QTreeView, QHeaderView, QListView, QTableView, QLineEdit, QTextEdit, QPlainTextEdit, QComboBox {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ababab;
+    alternate-background-color: #f1f6fa; /* Subtle stripe for lists like Addon Manager */
+}
+
+/* 4. SELECTION - High contrast for clarity */
+QTreeView::item:selected, QListView::item:selected, QTableView::item:selected {
+    background-color: #556cbb;
+    color: #ffffff;
+}
+
+/* 5. ADDON MANAGER SPECIFIC POLISH */
+/* This fixes the "boxes inside boxes" look in the Addon Manager */
+QAbstractItemView {
+    background-color: #ffffff;
+    show-decoration-selected: 1;
+}
+
+/* 6. TABS - Clean white active tab */
+QTabBar::tab {
+    background-color: #b0c4d4;
+    padding: 6px 15px;
+    border: 1px solid #a0a0a0;
+    border-bottom: none;
+    min-width: 80px;
+    font-size: 11pt;
+}
+
+QTabBar::tab:selected {
+    background-color: #ffffff;
+    font-weight: bold;
+    border-bottom: 2px solid #556cbb; /* Sharp blue line under active tab */
+}
+
+/* 7. MENUS & TOOLBARS */
+QMenuBar {
+    background-color: #c4d6e5;
+    font-size: 13pt;
+}
+
+QMenu {
+    background-color: #ffffff; /* White background for menus is easier on the eyes */
+    border: 1px solid #999999;
+    font-size: 13pt;
+}
+
+QMenu::item:selected {
+    background-color: #556cbb;
+    color: #ffffff;
+}
+
+/* 8. SURFACE PRO / HIGH DPI FIXES */
+QCheckBox::indicator, QGroupBox::indicator, QRadioButton::indicator {
+    width: 20px;
+    height: 20px;
+}
+
+/* 9. BUTTONS */
+QPushButton {
+    background-color: #d1e0f0;
+    border: 1px solid #8ba0b5;
+    padding: 4px 12px;
+    border-radius: 3px;
+}
+
+QPushButton:hover {
+    background-color: #ffffff;
+}
+
+QPushButton:pressed {
+    background-color: #556cbb;
+    color: #ffffff;
+}
