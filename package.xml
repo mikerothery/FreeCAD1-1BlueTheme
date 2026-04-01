@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>FreeCAD1-1BlueTheme</name>
+  <description>FreeCAD bespoke blue-grey theme for FreeCAD Version 1-1.</description>
+  <version>1.0.0</version>
+  <date>2026-04-01</date>
+  <maintainer email="mike@maidencombe.com">Mike</maintainer>
+  <license>LGPL-2.1</license>
+  <url type="repository" branch="main">https://github.com/mikerothery/FreeCAD1-1BlueTheme</url>
+  <tag>theme</tag>
+  <icon>linux-tux-svgrepo-com.svg</icon>
+  <content>
+    <preferencepack>
+      <name>FreeCAD1-1BlueTheme</name>
+      <type>Theme</type>
+      <subdirectory>FreeCAD1-1BlueTheme</subdirectory>
+      <file>FreeCAD1-1BlueTheme.cfg</file>
+      <stylesheet>FreeCAD1-1BlueTheme.qss</stylesheet>
+    </preferencepack>
+  </content>
+</package>
