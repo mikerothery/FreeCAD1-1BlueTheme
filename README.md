@@ -84,6 +84,29 @@ Edit Preferences - Display - 3D View - Marker Size\
 Set to 9px for a 1920 x 1080 (Standard 1K) display\
 Set to 13px for a 2160 x 1440 (Surface Pro) display 
 
+## Add the New Settings for FreeCAD 1.1 that weren't in FreeCAD 1.0
+Padding etc\
+	Edit Preferences - Part Design - General - Preview\
+		Check - Show final result by default when editing features\
+		Uncheck - Show transparent preview overlay by default when editing features\
+		Check - Highlight the profile used to create features\
+Origins etc\
+	Edit Preferences - Display - 3D View - Rendering\
+		Set Datum Size to 300%\
+New Pad Technique\
+	Edit Preferences - Sketcher - General\
+		Check - Generate Internal Faces\
+External Geometry\
+	Edit Preferences - Sketcher - General\
+		Check - Always add external geometry as construction\
+Size of Recent File List\
+	Edit Preferences - General - General\
+		Size of Recent File List - I set this to 16\
+Vertex and Line Sizes\
+	Edit Preferences - Part/PartDesign - Shape Appearance\
+		Line Width to 1px\
+		Vertex Size to 1px
+
 ## Contact
 If you have any comments, please email me on mike@maidencombe.com
 
