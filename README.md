@@ -86,10 +86,10 @@ Set to 13px for a 2160 x 1440 (Surface Pro) display
 
 ## Add the New Settings for FreeCAD 1.1 that weren't in FreeCAD 1.0
 Padding etc\
-	Edit Preferences - Part Design - General - Preview\
-		Check - Show final result by default when editing features\
-		Uncheck - Show transparent preview overlay by default when editing features\
-		Check - Highlight the profile used to create features\
+ Edit Preferences - Part Design - General - Preview\
+  Check - Show final result by default when editing features\
+  Uncheck - Show transparent preview overlay by default when editing features\
+  Check - Highlight the profile used to create features\
 Origins etc\
 	Edit Preferences - Display - 3D View - Rendering\
 		Set Datum Size to 300%\
